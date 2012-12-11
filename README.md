@@ -46,7 +46,7 @@ to stem many words, and deleted after some time.
 Algorithms & encodings
 ----
 
-List all the main algorithms for each language, in UTF-8, and also with
+File **modules.txt** contains all the main algorithms for each language, in UTF-8, and also with
 the most commonly used encoding.
 
 ```
