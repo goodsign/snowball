@@ -1,4 +1,4 @@
-package stem
+package snowball
 
 import (
     "os"

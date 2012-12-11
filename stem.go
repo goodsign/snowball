@@ -1,5 +1,5 @@
-// Package stem is a Snowball stemmer cgo port. Provides word stem extraction functionality.
-package stem
+// Package snowball is a Snowball stemmer cgo port. Provides word stem extraction functionality.
+package snowball
 
 // #include "include/libstemmer.h"
 // #include <stdlib.h>
