@@ -8,7 +8,7 @@
  * russian, spanish, swedish, turkish
  */
 
-#include "../include/stem_UTF_8_arabic.h"
+#include "../src_c/stem_UTF_8_arabic.h"
 #include "../include/stem_ISO_8859_1_danish.h"
 #include "../include/stem_UTF_8_danish.h"
 #include "../include/stem_ISO_8859_1_dutch.h"

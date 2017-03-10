@@ -101,6 +101,7 @@ func TestUTF8(t *testing.T) {
     testLanguage(t, "romanian",     DefaultEncoding, "test/romanian_test.txt")
     testLanguage(t, "spanish",      DefaultEncoding, "test/spanish_test.txt")
     testLanguage(t, "swedish",      DefaultEncoding, "test/swedish_test.txt")
+    testLanguage(t, "arabic",      DefaultEncoding, "test/arabic_test.txt")
 }
 
 func TestKOI8R(t *testing.T) {
