@@ -7,22 +7,22 @@ Installing
 ====
 
 ```
-go get github.com/goodsign/snowball
-go test github.com/goodsign/snowball (Must PASS)
+go get github.com/LBenzahia/go_snowball
+go test github.com/LBenzahia/go_snowball (Must PASS)
 ```
 
-Done! Use it in your go files. (import 'github.com/goodsign/snowball')
+Done! Use it in your go files. (import 'github.com/LBenzahia/snowball')
 
 Usage
 ====
 
 ```go
   stemmer, err := NewWordStemmer(algorithm, encoding)
-  
+
   if nil != err {
     /*...handle error...*/
   }
-  defer stemmer.Close() 
+  defer stemmer.Close()
 
   wordStem, err := stemmer.Stem(word)
   if nil != err {
@@ -52,6 +52,7 @@ the most commonly used encoding.
 ```
 Language        Encodings               Algorithms
 
+arabic          UTF_8,ISO_8859_1        arabic,ar
 danish          UTF_8,ISO_8859_1        danish,da,dan
 dutch           UTF_8,ISO_8859_1        dutch,nl,dut,nld
 english         UTF_8,ISO_8859_1        english,en,eng
@@ -91,6 +92,6 @@ The Snowball library is released under the [BSD Licence](http://opensource.org/l
 Licence
 ==========
 
-The goodsign/snowball binding is released under the [BSD Licence](http://opensource.org/licenses/bsd-license.php)
+This project is update for The goodsign/snowball binding is released under the [BSD Licence](http://opensource.org/licenses/bsd-license.php)
 
 [LICENCE file](https://github.com/goodsign/libtextcat/blob/master/LICENCE)
